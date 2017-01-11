@@ -45,5 +45,7 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 * tBodyGyroJerkMean
 
 ###**Summary Choice**
-The average of variables for each activity and each subject are calculated and grouped to each activity per subject. I included the Subject, Activity Name, as well as Activity Code and sort them in order to ease viewing.
+The average of variables for each activity and each subject are calculated and grouped to each activity per subject. I included the Subject, Activity Name, as well as Activity Code and sort them in order to ease viewing.  
+  
+The resulting dataset is a 181 rows x 89 columns data. 3 columns contain Subject, Activity Name, and Activity Code. 86 columns contain the measured variables. There are 181 rows including the header which means there are 180 observational rows for 30 subjects with each 6 activities.
 
