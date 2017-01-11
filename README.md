@@ -1,13 +1,15 @@
-# GetDataWeek4
-Repository for Coursera Project for Week 4 of Getting &amp; Cleaning Data
+#**GetDataWeek4**
+*Repository for Coursera Project for Week 4 of Getting and Cleaning Data*
 
-###There will be 3 files in this repository:
+###**Files**
+There will be 3 files in this repository:
 
 1. run_analysis.R : the script to analyze data and output tidy data
 2. CodeBook.md : A code book that explains the script, the data, and the output files.
 3. README.md : Read this README file first to understand all the files and scripts in this repository.
 
-###Explanation on run_analysis.R:
+###**Explanation on run_analysis.R**
+
 This script assumes that the working directory contains a folder of unzipped package downloaded from this link (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). Here is the step-by-step algorithm process it runs:
 
 1. set working directory to the folder containing necessary files.
