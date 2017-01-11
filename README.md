@@ -24,7 +24,7 @@ This script assumes that the working directory contains a folder of unzipped pac
 10. Output 1 file tidydata_groupmean.txt. I believe this dataset follows the principle of tidy data as there is only 1 variable per column and 1 observation per rows. I have also sorted the activity per subject to give a better presentation of the dataset.
 11. detach all library packages.
 
-*Note: There are also comments in the script to explain the code*  
+*Note: There are also comments in the script to explain further what is being done in the code*  
 
 
 
