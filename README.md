@@ -5,12 +5,12 @@
 There will be 3 files in this repository:
 
 1. run_analysis.R : the script to analyze data and output tidy data
-2. CodeBook.md : A code book that explains the script, the data, and the output files.
-3. README.md : Read this README file first to understand all the files and scripts in this repository.
+2. CodeBook.md : A code book that explains the variables of the data summary choices.
+3. README.md : Read this README file first to understand all the files and scripts in this repository. This README also provides explanation on how the script works.
 
 ###**Explanation on run_analysis.R**
 
-This script assumes that the working directory contains a folder of unzipped package downloaded from this link (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). Here is the step-by-step algorithm process it runs:
+This script assumes that the working directory contains a folder of unzipped package downloaded from this link (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). Here is the step-by-step algorithm process it runs:  
 
 1. set working directory to the folder containing necessary files.
 2. read features.txt files and extract out the positions of all the necessary mean and std variables and save it into a vector 'f'.
@@ -23,6 +23,8 @@ This script assumes that the working directory contains a folder of unzipped pac
 9. reset working directory.
 10. Output 1 file tidydata_groupmean.txt. I believe this dataset follows the principle of tidy data as there is only 1 variable per column and 1 observation per rows. I have also sorted the activity per subject to give a better presentation of the dataset.
 11. detach all library packages.
+
+*Note: There are also comments in the script to explain the code*  
 
 
 
