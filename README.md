@@ -21,7 +21,8 @@ This script assumes that the working directory contains a folder of unzipped pac
 7. Combine the Subject and Activity label dataframe with the test & train variables dataframe to make a single tidied up dataframe.
 8. Create another independent dataframe which summarizes the mean for each variables and group them based on Subject and Activity. Then sort this based on Subject and Activity.
 9. reset working directory
-10. Output 1 file: tidydata_groupmean.txt. I believe this dataset follows the principle of tidy data as there is only 1 variable per column and 1 observation per rows. I have also sorted the activity per subject to give a better presentation of the dataset.
+10. Output 1 file: tidydata_groupmean.txt. I believe this dataset follows the principle of tidy data as there is only 1 variable per column and 1 observation per rows. I have also sorted the activity per subject to give a better presentation of the dataset
+
 11. detach all library packages
 
 
