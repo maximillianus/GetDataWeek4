@@ -10,7 +10,7 @@ There will be 3 files in this repository:
 
 ###**Explanation on run_analysis.R**
 
-This script assumes that the working directory contains a folder of unzipped package downloaded from this link (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). Here is the step-by-step algorithm process it runs:  
+This script assumes that the working directory contains a folder of unzipped package downloaded from this link (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). It also assumes that the user have already installed 'dplyr' package which is loaded inside the script. Here is the step-by-step algorithm process it runs:  
 
 1. set working directory to the folder containing necessary files.
 2. read features.txt files and extract out the positions of all the necessary mean and std variables and save it into a vector 'f'.
